@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Sorted.IDal\Sorted.IDal.csproj" />
+    <ProjectReference Include="..\Sorted.MockDal\Sorted.MockDal.csproj" />
+  </ItemGroup>
+
 </Project>
